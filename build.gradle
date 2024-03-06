@@ -1,0 +1,19 @@
+buildscript {
+    dependencies {
+        classpath 'com.google.gms:google-services:4.4.0'
+    }
+}
+plugins {
+    id 'com.android.application' version '8.1.3' apply false
+}
+
+//buildscript {
+//    repositories {
+//
+//        google() // Add this line if it's not already present
+//    }
+//    dependencies {
+//        classpath 'com.google.gms:google-services:4.4.0'
+//
+//    }
+//}

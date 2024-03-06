@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txtout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxHeight="300dp"
+        android:maxWidth="240dp"
+        android:hint="I am Sender"
+        android:padding="10dp"
+        android:background="@color/black"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>

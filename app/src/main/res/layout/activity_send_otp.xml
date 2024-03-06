@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wh_bg"
+    android:orientation="vertical"
+    tools:context=".SendOtpActivity">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        app:srcCompat="@drawable/whatsapp_logo"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="120dp"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verify Mobile number"
+        android:textSize="25dp"
+        android:textAppearance="@color/white"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp"
+        android:layout_margin="12dp"/>
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edtMobileNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:hint="Enter the Mobile Number"
+        android:drawableStart="@drawable/audio_call"
+        android:drawablePadding="25dp"
+        android:padding="10dp"
+        android:inputType="number"
+        android:maxLength="10"
+        android:background="@drawable/edit_text_style"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:textColor="@color/black"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="send"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:background="@drawable/btn_style"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
